@@ -1,0 +1,6 @@
+Cat
+Dog
+Mango
+Panda
+Rabbit
+parrot
