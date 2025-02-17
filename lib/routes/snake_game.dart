@@ -85,7 +85,7 @@ class SnakeSplashScreen extends StatelessWidget {
               // Snake Logo
               Center(
                 child: Image.asset(
-                  'assets/images/snakelogo.png',
+                  'assets/images/Snakelogo.png',
                   height: MediaQuery.of(context).size.height *
                       0.25, // Slightly smaller
                   fit: BoxFit.contain,

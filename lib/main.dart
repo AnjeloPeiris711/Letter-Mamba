@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-//import 'routes/parent_help.dart'; // Updated import path
+import 'routes/parent_help.dart'; // Updated import path
 //import 'routes/quizzes_dashbord.dart';
 //import 'routes/report_dashboard.dart';
-import 'routes/snake_game.dart';
+//import 'routes/snake_game.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SnakeSplashScreen(),
+      home: const VocabularyScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

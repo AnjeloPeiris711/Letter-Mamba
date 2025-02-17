@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'age_selection.dart';
+import 'quizzes_dashbord.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -48,7 +47,7 @@ class WelcomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => AgeSelectionScreen(),
+                          builder: (context) => QuizzesDashbordScreen(),
                         ),
                       );
                     },

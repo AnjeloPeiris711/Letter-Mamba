@@ -34,7 +34,7 @@ class GridWidget extends StatelessWidget {
           margin: const EdgeInsets.all(0.5),
           child: isSnakeHead
               ? SvgPicture.asset(
-                  'assets/snake_head.svg', // Path to your snake head SVG
+                  'assets/images/snake_head.svg', // Path to your snake head SVG
                   fit: BoxFit.fitHeight,
                 )
               : isSnake
